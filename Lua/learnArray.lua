@@ -1,14 +1,14 @@
 
-function main()
+function main(arr_size)
     print("Define empty array")
     local arr = {}
-    for i = 1, 25 do
+    for i = 1, arr_size do
         arr[i] = i
     end
     print("Print array info")
-    for i = 1, 25 do
+    for i = 1, arr_size do
         print(arr[i])
     end
 end
 
-main()
+main(25)
