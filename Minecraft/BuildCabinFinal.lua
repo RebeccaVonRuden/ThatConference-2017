@@ -33,7 +33,7 @@ end
 function build_stories(number_of_stories, wall_length)
     for i=1,number_of_stories do
 		turtle.up()
-        build_story(wall_length)
+        build_story(wall_length - 1)
     end
 end
 
@@ -69,13 +69,6 @@ function build_roof(wall_length)
 	end
 end
 
-function place_door()
-    local inventory_slot = find_block_slot("minecraft:wooden_door")
-    turtle.select(inventory_slot)
-    turtle.place()
-    return true
-end
-
 function install_door(number_of_stories)
 
 	for i=1,number_of_stories do
@@ -88,9 +81,22 @@ function install_door(number_of_stories)
 	turtle.up()
 	turtle.dig()
 	turtle.down()
-	place_door()
+    local inventory_slot = find_block_slot("minecraft:wooden_door")
+    turtle.select(inventory_slot)
+    turtle.place()
 end
 
+function install_window()
+	turtle.up()
+	turtle.turnRight()
+	turtle.forward()
+	turtle.forward()
+	turtle.turnLeft()
+	turtle.dig()
+    local inventory_slot = find_block_slot("minecraft:glass")
+    turtle.select(inventory_slot)
+    turtle.place()
+end
 
 function validate_arguments(number_of_stories,wall_length)
 	if number_of_stories == nil then
@@ -107,9 +113,10 @@ function main(number_of_stories,wall_length)
     turtle.select(1)
 	turtle.refuel()
 	validate_arguments(number_of_stories,wall_length)
-	build_stories(number_of_stories, wall_length - 1)
+	build_stories(number_of_stories, wall_length)
 	build_roof(wall_length)
 	install_door(number_of_stories)
+	install_window()
 end
 
 local args = { ... }
