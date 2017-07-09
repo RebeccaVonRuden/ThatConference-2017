@@ -4,9 +4,9 @@
 	Link: https://www.thatconference.com/sessions/session/11175
 
   ***************************************
-  ** PasteBin: dzwc8Vu0
+  ** STEP 6 Door and Window
+  ** PasteBin: f9WLq2w7
   **************************************
-
 --]]
 
 -- Step 1: BEGIN
@@ -144,32 +144,15 @@ end
 
 -- Step 6: END
 
--- Step 7: BEGIN 
--- Description: Passing Arguments In
--- PasteBin: ceFGB85S
+function main()
 
-function validate_arguments(number_of_stories,wall_length)
-	if number_of_stories == nil then
-		print("Argument 1 is Required: number_of_stories")
-		 error() 
-	end
-	if wall_length == nil then
-		print("Argument 2 is Required: wall_length")
-		 error() 
-	end
-end
-
-function main(number_of_stories,wall_length)
     turtle.select(1)
 	turtle.refuel()
-	validate_arguments(number_of_stories,wall_length)
-	build_stories(number_of_stories, wall_length)
-	build_roof(wall_length)
-    install_door(number_of_stories)
+	build_stories(3, 5)
+	build_roof(5)
+	install_door(3)
 	install_window()
+
 end
 
-local args = { ... }
-main(args[1],args[2])
-
--- Step 7: END
+main()

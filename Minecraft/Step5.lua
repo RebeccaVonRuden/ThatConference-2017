@@ -4,9 +4,9 @@
 	Link: https://www.thatconference.com/sessions/session/11175
 
   ***************************************
-  ** PasteBin: dzwc8Vu0
+  ** STEP 5 Build Roof
+  ** PasteBin: fv432ghS
   **************************************
-
 --]]
 
 -- Step 1: BEGIN
@@ -109,67 +109,13 @@ end
 
 -- Step 5: END
 
--- Step 6: BEGIN
--- Description: Door and Window
--- PasteBin: f9WLq2w7
+function main()
 
-function install_door(number_of_stories)
-
-	for i=1,number_of_stories do
-		turtle.down()
-	end
-	turtle.down()
-	turtle.forward()
-	turtle.turnLeft()
-	turtle.dig()
-	turtle.up()
-	turtle.dig()
-	turtle.down()
-    local inventory_slot = find_block_slot("minecraft:wooden_door")
-    turtle.select(inventory_slot)
-    turtle.place()
-end
-
-function install_window()
-	turtle.up()
-	turtle.turnRight()
-	turtle.forward()
-	turtle.forward()
-	turtle.turnLeft()
-	turtle.dig()
-    local inventory_slot = find_block_slot("minecraft:glass")
-    turtle.select(inventory_slot)
-    turtle.place()
-end
-
--- Step 6: END
-
--- Step 7: BEGIN 
--- Description: Passing Arguments In
--- PasteBin: ceFGB85S
-
-function validate_arguments(number_of_stories,wall_length)
-	if number_of_stories == nil then
-		print("Argument 1 is Required: number_of_stories")
-		 error() 
-	end
-	if wall_length == nil then
-		print("Argument 2 is Required: wall_length")
-		 error() 
-	end
-end
-
-function main(number_of_stories,wall_length)
     turtle.select(1)
 	turtle.refuel()
-	validate_arguments(number_of_stories,wall_length)
-	build_stories(number_of_stories, wall_length)
-	build_roof(wall_length)
-    install_door(number_of_stories)
-	install_window()
+	build_stories(3, 5)
+	build_roof(5)
+
 end
 
-local args = { ... }
-main(args[1],args[2])
-
--- Step 7: END
+main()
