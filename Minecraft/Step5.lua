@@ -1,12 +1,19 @@
 --[[
-	Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
-	Author: Rebecca Von Ruden
-	Link: https://www.thatconference.com/sessions/session/11175
+  Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
+  Author: Rebecca Von Ruden
+  Link: https://www.thatconference.com/sessions/session/11175
 
-  ***************************************
+  You will need: Mining Turtle, Lava Bucket, Oak Wood Planks, and Stone Slabs.
+
+  Requirements:
+    1. Complete the requirements for Steps 1, 2, 3, and 4.
+    2. Create a function to Place Roof Down using stone slabs.
+    3. Create a for loop and if i % 2 == 0 then to know when to turn left or right when placing the roof block down in a function.
+
+  *****************************************
   ** STEP 5 Build Roof
-  ** PasteBin: fv432ghS
-  **************************************
+  ** PasteBin:pastebin get fv432ghS step5
+  *****************************************
 --]]
 
 -- Step 1: BEGIN

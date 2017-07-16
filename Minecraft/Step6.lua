@@ -1,12 +1,19 @@
 --[[
-	Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
-	Author: Rebecca Von Ruden
-	Link: https://www.thatconference.com/sessions/session/11175
+  Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
+  Author: Rebecca Von Ruden
+  Link: https://www.thatconference.com/sessions/session/11175
 
-  ***************************************
+  You will need: Mining Turtle, Lava Bucket, Oak Wood Planks, Stone Slabs, Glass Blocks, and Oak Wood Door
+
+  Requirements:
+	1. Complete Requirements for Steps 1, 2, 3, 4, and 5.  Place new blocks in inventory.
+	2. Create a function to position turtle and Dig out wall blocks and Place the door.
+	3. Create a function to position turtle and dig out wall blocks and Place the window.
+
+  ******************************************
   ** STEP 6 Door and Window
-  ** PasteBin: f9WLq2w7
-  **************************************
+  ** PasteBin: pastebin get f9WLq2w7 step6
+  ******************************************
 --]]
 
 -- Step 1: BEGIN

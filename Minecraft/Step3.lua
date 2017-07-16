@@ -1,12 +1,19 @@
 --[[
-	Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
-	Author: Rebecca Von Ruden
-	Link: https://www.thatconference.com/sessions/session/11175
+  Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
+  Author: Rebecca Von Ruden
+  Link: https://www.thatconference.com/sessions/session/11175
 
-  ***************************************
+  You will need: Mining Turtle, Lava Bucket, and Oak Wood Planks
+
+  Requirements:
+    1. Complete the the requirements for step 1 and 2.
+    2. Create function build_story(wall_length).
+    3. Using a for loop to build 4 block_walls using left turns using function in step 2. 
+
+  ******************************************
   ** STEP 3 Build One Story 
-  ** PasteBin: 0z5Rgvuh
-  **************************************
+  ** PasteBin: pastebin get 0z5Rgvuh step3
+  ******************************************
 --]]
 
 -- Step 1: BEGIN

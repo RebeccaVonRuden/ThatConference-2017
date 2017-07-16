@@ -1,12 +1,19 @@
 --[[
-	Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
-	Author: Rebecca Von Ruden
-	Link: https://www.thatconference.com/sessions/session/11175
+  Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
+  Author: Rebecca Von Ruden
+  Link: https://www.thatconference.com/sessions/session/11175
 
-  ***************************************
+  You will need: Mining Turtle, Lava Bucket, and Oak Wood Planks
+
+  Requirements:
+    1. Complete the the requirements for Step 1.
+    2. Create function build_block_wall(number_of_blocks).
+    3. Using a for loop to place down 4 blocks down in a row using function in step 1.
+
+  ******************************************
   ** STEP 2: Build a Block Wall
-  ** PasteBin: ZryCakMb
-  **************************************
+  ** PasteBin: pastebin get ZryCakMb step2
+  ******************************************
 --]]
 
 -- Step 1: BEGIN
@@ -33,7 +40,7 @@ end
 
 -- Step 2: BEGIN
 -- Description: Build Block Wall
--- PasteBin: ZryCakMb
+-- PasteBin:ZryCakMb 
 
 function build_block_wall(number_of_blocks)
     for i = 1,number_of_blocks do
