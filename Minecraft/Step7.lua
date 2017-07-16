@@ -1,12 +1,19 @@
 --[[
-	Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
-	Author: Rebecca Von Ruden
-	Link: https://www.thatconference.com/sessions/session/11175
+  Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
+  Author: Rebecca Von Ruden
+  Link: https://www.thatconference.com/sessions/session/11175
 
-  ***************************************
+  You will need: Mining Turtle, Lava Bucket, Oak Wood Planks, Stone Slabs, Glass Blocks, and Oak Wood Door
+ 	
+  Requirements:
+	1. Complete requirements for Steps 1, 2, 3, 4, 5, and 6. Place new blocks in inventory.
+	2. Update the main(number_of_stories,wall_length) function to accept 2 arguments.
+	3. Pass the arguments to the new main(args[1],args[2]) function.
+
+  ******************************************
   ** STEP 7 Passing Arguments In
-  ** PasteBin: ceFGB85S
-  **************************************
+  ** PasteBin: pastebin get ceFGB85S step7
+  ******************************************
 --]]
 
 -- Step 1: BEGIN
