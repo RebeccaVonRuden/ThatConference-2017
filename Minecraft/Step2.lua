@@ -8,7 +8,7 @@
   Requirements:
     1. Complete the the requirements for Step 1.
     2. Create function build_block_wall(number_of_blocks).
-    3. Using a for loop to place down 4 blocks down in a row using function in step 1.
+    3. Using a for loop to place down 4 blocks down in a row using using place_block_down().
 
   ******************************************
   ** STEP 2: Build a Block Wall
@@ -56,7 +56,6 @@ function main()
     turtle.select(1)
 	turtle.refuel()
     build_block_wall(4)
-
 end
 
 main()

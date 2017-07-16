@@ -8,7 +8,7 @@
   Requirements:
     1. Complete the the requirements for step 1 and 2.
     2. Create function build_story(wall_length).
-    3. Using a for loop to build 4 block_walls using left turns using function in step 2. 
+    3. Using a for loop to build 4 block_walls using left turns using build_block_wall(). 
 
   ******************************************
   ** STEP 3 Build One Story 

@@ -3,12 +3,24 @@
   Author: Rebecca Von Ruden
   Link: https://www.thatconference.com/sessions/session/11175
 
-  You will need: Mining Turtle, Lava Bucket, and Oak Wood Planks
+Instructions:
+   1. Download technicpack.net launcher: https://www.technicpack.net/download and run the application.
+   2. Change Launcher options ... Java Settings to 2 GB Memory (Top Right of Application window.)
+   3. If 2 GB Memory not an option then you need to install the Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+   4. Relaunch technicpack.net launcher and change the Java Settings to 2 GB Memory.
+   5. Search for Modpack called "That Minecraft 2017" and install. (Modpack search is the top center of the window)
+   6. Play the "That Minecraft 2017" TechnicPack.net mod. (The play button is bottom right of the window)
+   6. Open Pastebin.com and use the pastebin solution codes provided or create your own by create a new paste and grab the code from the address bar.
+   7. In Minecraft create a new game with the single player, creative mode options.
+   8. Place the required items in the Turtles Inventory. 
+   9. Connect to your minecraft turtle then use the pastebin command to import the Lua program to your turtle For Example: "pastebin get ceFGB85S step7".
+  10. Run the Turtle Program: For Example: "step7 3 5".
   
   *****************************************
   ** STEP 1: Place One Block
   ** PasteBin: pastebin get vUw4CqrL step1
   *****************************************
+  You will need: Mining Turtle, Lava Bucket, and Oak Wood Planks
 
   Requirements: 
     1. Place items in “Mining Turtle” with Lava Bucket in inventory slot 1.
@@ -25,7 +37,7 @@
   Requirements:
     1. Complete the the requirements for Step 1.
     2. Create function build_block_wall(number_of_blocks).
-    3. Using a for loop to place down 4 blocks down in a row using function in step 1.
+    3. Using a for loop to place down 4 blocks down in a row using place_block_down().
 
   ******************************************
   ** STEP 3 Build One Story 
@@ -37,7 +49,7 @@
   Requirements:
     1. Complete the the requirements for step 1 and 2.
     2. Create function build_story(wall_length).
-    3. Using a for loop to build 4 block_walls using left turns using function in step 2. 
+    3. Using a for loop to build 4 block_walls using left turns using build_block_wall(). 
 
   ******************************************
   ** STEP 4 Build Multiple Stories
@@ -50,7 +62,7 @@
     1. Complete the requirements for Step 1, 2, and 3.
     2. Create function build_stories(number_of_stories, wall_length).
     3. Using a for loop to build 3 stories with a wall length of 5.
-    4. Using the function created in step 3.
+    4. Using the build_story(wall_length) function.
 
   *****************************************
   ** STEP 5 Build Roof

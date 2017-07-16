@@ -38,6 +38,7 @@ a={} --new array
 for i=1, 1000 do
    a[i] = 0 -- sets all values in the array to 0
 end
+print(a[1]) -- gets the array item’s value
  
      --   (Arrays also start with the value 1 instead of 0)
 
@@ -49,4 +50,5 @@ function place_block_down(inventory_name)
    return true
 End
 
-place_block_down("minecraft:planks")     
+result = place_block_down("minecraft:planks")
+place_block_down("minecraft:glass")  
