@@ -101,3 +101,10 @@ Instructions:
 	3. Pass the arguments to the new main(args[1],args[2]) function.
 --]]
 
+--[[
+  Solution Program and Slides:
+  pastebin get dzwc8Vu0 buildCabin
+  PasteBin: https://pastebin.com/u/rvonruden
+  GitHub: https://github.com/RebeccaVonRuden/ThatConference-2017
+  Contact: rebecca@vonruden.info
+--]]
