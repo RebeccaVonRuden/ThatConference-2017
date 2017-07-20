@@ -52,3 +52,22 @@ End
 
 result = place_block_down("minecraft:planks")
 place_block_down("minecraft:glass")  
+
+
+
+-- Turtle.API Commands... More at http://computercraft.info/wiki/Turtle_(API)
+
+turtle.forward() -- tells the turtle to move  forward.
+turtle.up() -- tells the turtle to move up
+turtle.down() -- tells the turtle to move down
+turtle.turnLeft() -- tells the turtle to turn left
+turtle.turnRight() -- tells the turtle to turn right
+
+turtle.getItemDetail() -- gets an item's number detail
+turtle.select() -- selects slot number 1 - 16
+turtle.refuel() -- refuels the turtle (uses lava buckets and coal)
+
+turtle.placeDown() -- places block below turtle
+turtle.place() -- places block in front of turtle
+turtle.dig() -- digs the block and puts it in the inventory
+
