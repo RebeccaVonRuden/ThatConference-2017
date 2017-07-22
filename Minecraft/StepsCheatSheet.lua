@@ -4,17 +4,18 @@
   Link: https://www.thatconference.com/sessions/session/11175
 
 Instructions:
-   1. Download technicpack.net launcher: https://www.technicpack.net/download and run the application.
-   2. Change Launcher options ... Java Settings to 2 GB Memory (Top Right of Application window.)
-   3. If 2 GB Memory not an option then you need to install the Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-   4. Relaunch technicpack.net launcher and change the Java Settings to 2 GB Memory.
-   5. Search for Modpack called "That Minecraft 2017" and install. (Modpack search is the top center of the window)
-   6. Play the "That Minecraft 2017" TechnicPack.net mod. (The play button is bottom right of the window)
+   1. Install and run Minecraft locally. 
+   2. Download technicpack.net launcher: https://www.technicpack.net/download and run the application.
+   3. Verify the Launcher options ... Java Settings set to 1 GB Memory (Top Right of Application window.)
+   4. Search for Modpack called "That Minecraft 2017" and install. (Modpack search is the top center of the window)
+   5. Play the "That Minecraft 2017" TechnicPack.net mod. (The play button is bottom right of the window)
    6. Open Pastebin.com and use the pastebin solution codes provided or create your own by create a new paste and grab the code from the address bar.
    7. In Minecraft create a new game with the single player, creative mode options.
    8. Place the required items in the Turtles Inventory. 
    9. Connect to your minecraft turtle then use the pastebin command to import the Lua program to your turtle For Example: "pastebin get ceFGB85S step7".
   10. Run the Turtle Program: For Example: "step7 3 5".
+  
+  If minecraft is jerky you may install the Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html and increase memory to 2 GB.
   
   *****************************************
   ** STEP 1: Place One Block
