@@ -2,6 +2,7 @@
   Presentation: LEARNING TO PROGRAM USING MINECRAFT IN-GAME COMPUTERS AND TURTLES USING THE LUA PROGRAMMING LANGUAGE
   Author: Rebecca Von Ruden
   Link: https://www.thatconference.com/sessions/session/11175
+  PasteBin Code Files: https://pastebin.com/u/rvonruden
 
 Instructions:
    1. Install and run Minecraft locally. 
