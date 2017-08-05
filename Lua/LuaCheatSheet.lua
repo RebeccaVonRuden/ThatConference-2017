@@ -14,6 +14,8 @@ local block_name = "minecraft:planks"
 local inventory_slot = turtle.getItemDetail(i)
 if inventory_slot.name == block_name then
     return i
+else
+    reurn null
 End
 -- Other operators:  <  >  <=  >=  ==  
 --        Special Note: ~= is Not Equal
